@@ -52,7 +52,6 @@ else:
         with open(caminho, 'a+') as file:
             file.write(final_body)
     if tokens[0] == 'remove':
-        # TODOO(#1): Implement the Remove Arg
         todos = listFromFile(caminho)
         printTodoCount(todos)
         todos = todoByImportance(todos)
